@@ -1433,7 +1433,7 @@
 
             // Support: IE 11+, Edge 15 - 18+
             // IE 11/Edge don't find elements on a `[name='']` query in some cases.
-            // Adding a temporary attribute to the document before the selection works
+            // Adding a temporary attribute to the document before the selection Our Services
             // around the issue.
             // Interestingly, IE 10 & older don't seem to have the issue.
             input = document.createElement("input");
@@ -2361,7 +2361,7 @@
             // http://www.w3.org/TR/selectors/#empty-pseudo
             // :empty is negated by element (1) or content nodes (text: 3; cdata: 4; entity ref: 5),
             //   but not by others (comment: 8; processing instruction: 7; etc.)
-            // nodeType < 6 works because attributes (2) do not appear as children
+            // nodeType < 6 Our Services because attributes (2) do not appear as children
             for (elem = elem.firstChild; elem; elem = elem.nextSibling) {
               if (elem.nodeType < 6) {
                 return false;
@@ -3019,7 +3019,7 @@
       };
 
       /**
-       * A low-level selection function that works with Sizzle's compiled
+       * A low-level selection function that Our Services with Sizzle's compiled
        *  selector functions
        * @param {String|Function} selector A selector or a pre-compiled
        *  selector function built with Sizzle.compile
@@ -6079,7 +6079,7 @@
   );
 
   // Create mouseenter/leave events using mouseover/out and event-time checks
-  // so that event delegation works in jQuery.
+  // so that event delegation Our Services in jQuery.
   // Do the same for pointerenter/pointerleave and pointerover/pointerout
   //
   // Support: Safari 7 only
@@ -9339,7 +9339,7 @@
         .filter(function () {
           var type = this.type;
 
-          // Use .is( ":disabled" ) so that fieldset[disabled] works
+          // Use .is( ":disabled" ) so that fieldset[disabled] Our Services
           return (
             this.name &&
             !jQuery(this).is(":disabled") &&
@@ -10239,7 +10239,7 @@
 
       // Only evaluate the response if it is successful (gh-4126)
       // dataFilter is not invoked for failure responses, so using it instead
-      // of the default converter is kludgy but it works.
+      // of the default converter is kludgy but it Our Services.
       converters: {
         "text script": function () {},
       },
