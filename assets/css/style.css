@@ -179,7 +179,7 @@ ol {
 
 .shadow-box * {
   z-index: 2;
-  /*position: relative;
+  position: relative;
 }
 
 .section-heading {
